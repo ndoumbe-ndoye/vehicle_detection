@@ -1,6 +1,5 @@
 import cv2 as cv
-
-cap = cv.VideoCapture("counts/counting_video.mp4")
+cap = cv.VideoCapture("count_experiment/video5.mp4")
 ret, frame = cap.read()
 cap.release()
 

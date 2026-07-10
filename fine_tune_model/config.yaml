@@ -1,0 +1,12 @@
+# absolute path 
+path: /Users/ndoumbendoye/vehicle_detection_project/fine_tune_model
+# relative path for annotations and images 
+val: images/val
+train: images/train
+
+names:
+  0: Car
+  3: Bus
+  2: Van
+  4: Motorcycle
+  1: Semi-Truck
